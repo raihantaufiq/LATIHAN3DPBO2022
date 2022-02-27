@@ -4,7 +4,11 @@ Saya Raihan Taufiqurrahman mengerjakan evaluasi Latihan Praktikum dalam mata kul
 
 
 ### Penjelasan
+Pada program ini terdapat kelas processor, disk, ram, dan pc. Computer mempunyai processor, disk, dan ram sebagai komponennya, sehingga hubungannya adalah composition. Kelas processor, disk, dan ram merupakan atribut dari kelas pc.
 
+Pada program ini dapat melakukan input pada setiap atribut dari kelas processor, disk, dan ram, sedangkan kelas pc akan menyesuaikan dengan input tersebut. Atribut totalPrice pada kelas pc tidak memiliki prosedur setter karena merupakan hasil penjumlahan dari atribut price pada kelas lainnya, namun memiliki prosedur updateTotalPrice agar ketika price pada kelas lainnya berubah isi dari atribut totalPrice dapat menyesuaikan.
+
+Pada main, setelah input selesai maka hasilnya akan ditampilkan.
 
 
 ### Screenshot
